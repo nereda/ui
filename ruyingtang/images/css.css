@@ -1,0 +1,40 @@
+body, div, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4
+{margin:0;padding:0;font-style:normal;font-family: "微软雅黑";}
+.header { height: 100px; width:100%;  background: #F5F1EC; line-height:20px;}
+.header .container { width:980px; margin:0 auto;}
+.header img { float: left; padding-top:12px;}
+.header p { float: right;}
+.header ul { width:800px; overflow: hidden; float: left; padding: 8px 0px 0px 0px;}
+.header ul li { float: left; width:150px; list-style: none; font-size:12px; text-align: center;}
+.header ul li span { font-size:16px;}
+.header ul li a { color:#000000; text-decoration: none;}
+.header ul li a:hover {color:#ff1121;}
+
+
+.swiper { width:100%; height: 679px; background-size:100% 100%; background: url("../images/banner.png") no-repeat center;}
+
+.content { width:100%; height: 680px; background: #F5F0E9;}
+.content .container { width:1200px; margin: 0 auto; padding-left:15px;}
+.content .container .lf { float: left;}
+.content .img { float: left; width:998px;}
+.content .container .rt { float: right; width:170px;}
+.content p { height: 439px; writing-mode: vertical-rl; padding:100px 0; font-size:14px; letter-spacing:3px;}
+
+.row { width:100%; height: 600px; background:#F2EBE0;}
+.row .container { width:1200px; margin: 0 auto; padding-left:15px;}
+.row .lf { float: left; width:998px;}
+.row .container .rt { float: right; width:170px;}
+.row .container .rt  p { height: 439px; writing-mode: vertical-rl; padding:100px 0; font-size:14px; letter-spacing:3px;}
+
+.row1 { width:100%; height: 979px;background-size:100% 100%; background: url("../images/banner2.png") no-repeat center;}
+
+.row2 { width:100%; height: 665px; background-size:100% 100%; background: url("../images/mutou.png") no-repeat center;}
+.row2 .container {width:1200px; margin: 0 auto; }
+.row2 .container .lf-lap{ width:1014px;}
+
+.footer { width:100%; height: 300px;  background: #DDD7D7;}
+.footer .container { width:980px; margin: 0 auto; overflow: hidden; text-align: center;}
+.footer .container .lf { float: left; width:300px; padding: 20px;}
+.footer .container .lf p { text-align: left; line-height: 24px;}
+.footer .container .rt { float: right; width:500px; padding: 20px;}
+.footer .container .rt .item { width:150px; height:150px; float:left; padding: 5px;}
